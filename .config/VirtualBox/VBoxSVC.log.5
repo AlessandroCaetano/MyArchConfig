@@ -1,0 +1,33 @@
+VirtualBox XPCOM Server 5.0.14_OSE r105127 linux.amd64 (Mar  4 2016 21:46:10) release log
+00:00:00.000174 main     Log opened 2016-03-10T15:16:34.951803000Z
+00:00:00.000175 main     Build Type: release
+00:00:00.000178 main     OS Product: Linux
+00:00:00.000178 main     OS Release: 4.4.3-1-ARCH
+00:00:00.000179 main     OS Version: #1 SMP PREEMPT Fri Feb 26 15:09:29 CET 2016
+00:00:00.000197 main     DMI Product Name: 550P5C/550P7C
+00:00:00.000202 main     DMI Product Version: P05ABI
+00:00:00.000232 main     Host RAM: 7875MB total, 6656MB available
+00:00:00.000235 main     Executable: /usr/lib/virtualbox/VBoxSVC
+00:00:00.000235 main     Process ID: 32625
+00:00:00.000236 main     Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.104503 nspr-2   Home directory: '/home/alessandrocb/.config/VirtualBox'
+00:00:00.104648 nspr-2   Loading settings file "/home/alessandrocb/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:00.113412 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp2s0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:00.120214 nspr-2   HostDnsMonitor: old information
+00:00:00.120226 nspr-2     no server entries
+00:00:00.120230 nspr-2     no search string entries
+00:00:00.120232 nspr-2     no domain set
+00:00:00.120234 nspr-2   HostDnsMonitor: new information
+00:00:00.120236 nspr-2     server 1: 192.168.10.1
+00:00:00.120239 nspr-2     no search string entries
+00:00:00.120241 nspr-2     domain: unb.br
+00:00:00.120247 nspr-2   HostDnsMonitorProxy::notify
+00:00:00.128112 nspr-2   failed to create vboxnet0, error (0x80004005)
+00:00:00.129353 nspr-2   VD: VDInit finished
+00:00:00.132733 nspr-2   Loading settings file "/home/alessandrocb/VirtualBox VMs/packager_default_1457430040637_2994/packager_default_1457430040637_2994.vbox" with version "1.15-linux"
+00:00:00.133285 nspr-2   Loading settings file "/home/alessandrocb/VirtualBox VMs/HadoopClusterDeploy_Ambari_1457559732311_81191/HadoopClusterDeploy_Ambari_1457559732311_81191.vbox" with version "1.15-linux"
+00:00:00.148746 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp2s0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:05.158150 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={4afe423b-43e0-e9d0-82e8-ceb307940dda} aComponent={MediumWrap} aText={Medium '/home/alessandrocb/VirtualBox VMs/packager_default_1457430040637_2994/vagrant-virtualbox-box.vmdk' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:00:05.158404 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={4afe423b-43e0-e9d0-82e8-ceb307940dda} aComponent={MediumWrap} aText={Medium '/home/alessandrocb/VirtualBox VMs/HadoopClusterDeploy_Ambari_1457559732311_81191/vagrant-virtualbox-box.vmdk' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:00:05.634974 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={0169423f-46b4-cde9-91af-1e9d5b6cd945} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:00:10.159086 main     {00007f5634015170} HostPowerServiceLinux::~HostPowerServiceLinux: RTThreadWait() for 5000 ms failed with VERR_TIMEOUT

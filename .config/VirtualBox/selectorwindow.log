@@ -1,0 +1,19 @@
+VirtualBox GUI VM Selector Window 5.0.14_OSE r105127 linux.amd64 (Mar  4 2016 21:46:10) release log
+00:00:01.238385 Log opened 2016-03-10T16:11:08.906513000Z
+00:00:01.238387 Build Type: release
+00:00:01.238390 OS Product: Linux
+00:00:01.238391 OS Release: 4.4.3-1-ARCH
+00:00:01.238392 OS Version: #1 SMP PREEMPT Fri Feb 26 15:09:29 CET 2016
+00:00:01.238417 DMI Product Name: 550P5C/550P7C
+00:00:01.238426 DMI Product Version: P05ABI
+00:00:01.238477 Host RAM: 7875MB total, 6174MB available
+00:00:01.238480 Executable: /usr/lib/virtualbox/VirtualBox
+00:00:01.238481 Process ID: 7715
+00:00:01.238482 Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:01.257083 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:02.434368 GUI: UISelectorWindow: Geometry loaded to: Origin=298x109, Size=770x550
+00:00:02.551815 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:02.679385 Failed to open "/dev/vboxdrv", errno=13, rc=VERR_VM_DRIVER_NOT_ACCESSIBLE
+00:00:02.757512 refreshCertificates/#1: InMem.Cert.TbsCertificate.T3.Extensions.paItems[#].ExtnValue.NameConstraints.T0.PermittedSubtrees.paItems[#]: Unexpected sequence type/flags: 0x2/0x80 (expected 0x10/0x20)
+00:00:02.759196 refreshCertificates/#3: Found 1/183 SSL certs we/you trust (previously 0/0).
+00:00:08.530739 GUI: UISelectorWindow: Geometry saved as: Origin=298x109, Size=770x550

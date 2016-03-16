@@ -1,0 +1,15 @@
+
+[audacious]
+shuffle=TRUE
+
+[audgui]
+about_win=0,136,582,385
+
+[skins]
+equalizer_x=17
+equalizer_y=134
+player_x=17
+player_y=18
+playlist_x=292
+playlist_y=18
+skin=/usr/share/audacious/Skins/Default
