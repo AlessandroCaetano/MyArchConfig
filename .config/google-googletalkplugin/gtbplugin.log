@@ -1,0 +1,347 @@
+[000:000] Cpu: 6.58.9, x8, 3400Mhz, 7875MB
+[000:001] Computer model: Not available
+[000:001] Browser XEmbed support present: 1
+[000:001] Browser toolkit is Gtk2.
+[000:001] Using Gtk2 toolkit
+[000:026] Starting client channel.
+[000:026] Warning(clientchannel.cc:486): 0x7fac50349790: Unreadable or no port file.  Could not initiate GoogleTalkPlugin connection
+[000:026] 0x7fac50349790: SendConnectStatus: Connect Status: 
+[
+	"f-connect",
+	
+	{
+		"error" : -1,
+		"step" : "0"
+	}
+]
+
+[000:027] Warning(clientchannel.cc:459): 0x7fac50349790: Could not initiate GoogleTalkPlugin connection
+[000:027] 0x7fac50349790: GoogleTalkPlugin not running. Starting new process...
+[000:027] Starting Flute
+[000:027] Warning(pluginutils.cc:269): Failed to get GoogleTalkPlugin path. Trying default.
+[000:028] Started GoogleTalkPlugin, path=/opt/google/talkplugin/GoogleTalkPlugin
+[000:028] 0x7fac50349790: SendConnectStatus: Connect Status: 
+[
+	"f-connect",
+	
+	{
+		"step" : "2"
+	}
+]
+
+[000:028] 0x7fac50349790: Waiting for GoogleTalkPlugin to start...
+[000:051] Error(clientchannel.cc:260): 0x7fac50349700: Called ClientChannel::Stop() on a client channel which was not running.
+[001:125] 0x7fac50349790: Attempting to connect to GoogleTalkPlugin...
+[001:125] Read port file, port=60461
+[001:125] 0x7fac50349790: SendConnectStatus: Connect Status: 
+[
+	"f-connect",
+	
+	{
+		"step" : "0"
+	}
+]
+
+[001:144] 0x7fac4e1450b0:  sending cookie HegCdImd38ZS5P1v
+[001:144] 0x7fac50349790: SendConnectStatus: Connect Status: 
+[
+	"f-connect",
+	
+	{
+		"step" : "1"
+	}
+]
+
+[001:156] 0x7fac50349790: Initiated connection to GoogleTalkPlugin
+[001:225] 0x7fac50349790: SendConnectStatus: Connect Status: 
+[
+	"f-connect",
+	
+	{
+		"step" : "3"
+	}
+]
+
+[001:225] 0x7fac50349790: Socket connection established
+[001:225] 0x7fac50349790: ScheduleOnlineCheck: Online check in 5000ms
+[001:326] 0x7fac4e1450b0: Got cookie response, socket is authorized
+[001:326] 0x7fac50349790: AUTHORIZED; socket handshake complete
+[001:331] 0x7fac50349790: C->F: ["mf",2,{"appName":"wabel_mediacall","buildLabel":"chat_web_connection_server_20160920.09_p0","allowConcurrentSessions":"true","cams":[{"usbid":"046d:0809","w":640,"h":480,"fps":30},{"usbid":"046d:09a6","w":640,"h":480,"fps":30},{"usbid":"046d:08ca","w":640,"h":480,"fps":30},{"usbid":"046d:0990","w":640,"h":480,"fps":30},{"usbid":"17ef:480f","w":640,"h":480,"fps":30},{"usbid":"5986:02d5","w":640,"h":480,"fps":30},{"usbid":"5986:0361","w":640,"h":480,"fps":30},{"name":"MT9M114","w":640,"h":480,"fps":30},{"name":"OV5693","w":640,"h":480,"fps":30},{"usbid":"05ac:8507","w":640,"h":480,"fps":30},{"usbid":"05ac:850a","w":640,"h":480,"fps":30},{"usbid":"05ac:8509"},{"usbid":"05ac:8510"},{"usbid":"046d:0823"},{"usbid":"046d:0821"},{"usbid":"046d:082d"},{"usbid":"046d:0843"},{"usbid":"046d:082c"},{"usbid":"046d:0826"},{"usbid":"046d:081d"},{"usbid":"046d:081b"},{"usbid":"046d:0825"},{"usbid":"045e:075d"},{"usbid":"045e:0772"},{"name":"Pan Tilt Zoom Camera"},{"name":"AJA SDI input"},{"name":"AJA HDMI input"},{"usbid":"04f2:b2a4"},{"usbid":"0839:1095"},{"usbid":"0ac8:3530"},{"usbid":"5555:3411"},{"usbid":"1778:0204"},{"usbid":"1778:0206"}],"exps":["gii","cc","hc","bpd","msv","ric","tm","hvr","hem","tl","hmb","wvlm","spar","wv","hre","mef","ols","jdv3","poc","wed","poc"],"jid":"alessandro.caetanob@gmail.com","renderer":2,"useBrowserHttp":true,"o3dVersion":"0.1.44.29","domain":"hangouts.google.com","useragent":"Mozilla/5.0 (X11; Linux x86_64; rv:48.0) Gecko/20100101 Firefox/48.0","pluginversion":"5.41.0.0"}]
+[001:332] 0x7fac50349790: F->C: ["fs",{"pr":"a"}]
+[001:426] 0x7fac50349790: F->C: ["mf","mf5.41","5.41.0.0",2,{"audioCodecs":[[111,"opus",2,64000,48000],[103,"ISAC",1,0,16000],[104,"ISAC",1,0,32000],[9,"G722",1,64000,8000],[102,"ILBC",1,13300,8000],[0,"PCMU",1,64000,8000],[8,"PCMA",1,64000,8000],[106,"CN",1,0,32000],[105,"CN",1,0,16000],[13,"CN",1,0,8000],[127,"red",1,0,8000],[126,"telephone-event",1,0,8000]],"audioRtpHdrExts":[{"id":1,"uri":"urn:ietf:params:rtp-hdrext:ssrc-audio-level"},{"id":3,"uri":"http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time"}],"bundle":1,"camDeviceName":"WebCam SC-13HDL11939N","caps":15,"cpuAdaptVersion":1,"cpuArchitecture":1,"cpuCacheSize":6291456,"cpuFamily":6,"cpuFlags":["sse2","ssse3","sse4_1","sse4_2","avx"],"cpuHasSSE2":true,"cpuModel":58,"cpuSpeed":3400,"cpuStepping":9,"cpuVendor":"GenuineIntel","cpus":8,"cpusPhysical":4,"cryptoRandom":"fYedITG2QEMrymuiu+ejKACE","cryptoSuites":["AES_CM_128_HMAC_SHA1_80","AES_CM_128_HMAC_SHA1_32"],"dataChannelVersion":1,"effectsVersion":12,"gpuDescription":"","gpuDeviceId":0,"gpuDeviceName":"","gpuDriver":"","gpuDriverVersion":"","gpuVendorId":0,"iceVersion":1,"machineModel":"Not available","remotingAssistanceAllowed":1,"remotingVersion":1,"renderer":2,"rtcpMux":true,"screencast":2,"screencastLocalPreview":1,"supportsConcurrentSessions":true,"transports":["i","gice","ice"],"unsignalledRecvStreams":2,"videoCodecs":[[100,"VP8",640,400,30],[96,"rtx",640,400,30,{"apt":"100"}],[116,"red",640,400,30],[117,"ulpfec",640,400,30]],"videoRtpHdrExts":[{"id":2,"uri":"urn:ietf:params:rtp-hdrext:toffset"},{"id":3,"uri":"http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time"}],"vsVersion":1}]
+[001:435] 0x7fac50349790: C->F: ["jec",[[100,"VP8",1280,720,30]],{"num_threads":-1,"cpu_profile":61,"apply_immediately":true,"force_reopen":false}]
+[001:437] 0x7fac50349790: C->F: ["getdevicestate"]
+[001:437] 0x7fac50349790: F->C: ["getproxyforurl",{"url":"https://relay.google.com/"}]
+[001:444] 0x7fac50349790: C->F: ["proxyinfo",{"config":"DIRECT","error":0}]
+
+[001:500] Starting client channel.
+[001:500] Read port file, port=60461
+[001:500] 0x7fac50349700: SendConnectStatus: Connect Status: 
+[
+	"f-connect",
+	
+	{
+		"step" : "0"
+	}
+]
+
+[001:501] 0x7fac4e145240:  sending cookie HegCdImd38ZS5P1v
+[001:501] 0x7fac50349700: SendConnectStatus: Connect Status: 
+[
+	"f-connect",
+	
+	{
+		"step" : "1"
+	}
+]
+
+[001:501] 0x7fac50349700: Initiated connection to GoogleTalkPlugin
+[001:526] 0x7fac50349790: F->C: ["getdevicestate","15","0",["__default_device","Áudio interno Estéreo analógico"],"0",["__default_device","Áudio interno Estéreo analógico"],"0",["WebCam SC-13HDL11939N"]]
+[001:528] 0x7fac50349700: SendConnectStatus: Connect Status: 
+[
+	"f-connect",
+	
+	{
+		"step" : "3"
+	}
+]
+
+[001:529] 0x7fac50349700: Socket connection established
+[001:529] 0x7fac50349700: ScheduleOnlineCheck: Online check in 5000ms
+[001:593] 0x7fac4e145240: Got cookie response, socket is authorized
+[001:593] 0x7fac50349700: AUTHORIZED; socket handshake complete
+[001:595] 0x7fac50349700: C->F: ["mf",2,{"jid":"alessandro.caetanob@gmail.com","domain":"hangouts.google.com","useragent":"Mozilla/5.0 (X11; Linux x86_64; rv:48.0) Gecko/20100101 Firefox/48.0","pluginversion":"5.41.0.0"}]
+[001:595] 0x7fac50349700: F->C: ["fs",{"pr":"a"}]
+[001:694] 0x7fac50349700: F->C: ["mf","mf5.41","5.41.0.0",2,{"audioCodecs":[[103,"ISAC",1,0,16000],[111,"opus",2,64000,48000],[104,"ISAC",1,0,32000],[9,"G722",1,64000,8000],[102,"ILBC",1,13300,8000],[0,"PCMU",1,64000,8000],[8,"PCMA",1,64000,8000],[106,"CN",1,0,32000],[105,"CN",1,0,16000],[13,"CN",1,0,8000],[127,"red",1,0,8000],[126,"telephone-event",1,0,8000]],"audioRtpHdrExts":[{"id":1,"uri":"urn:ietf:params:rtp-hdrext:ssrc-audio-level"},{"id":3,"uri":"http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time"}],"camDeviceName":"WebCam SC-13HDL11939N","caps":15,"cpuAdaptVersion":1,"cpuArchitecture":1,"cpuCacheSize":6291456,"cpuFamily":6,"cpuFlags":["sse2","ssse3","sse4_1","sse4_2","avx"],"cpuHasSSE2":true,"cpuModel":58,"cpuSpeed":3400,"cpuStepping":9,"cpuVendor":"GenuineIntel","cpus":8,"cpusPhysical":4,"cryptoRandom":"jllbzU4oRMYf/yS2c+AdkbG0","cryptoSuites":["AES_CM_128_HMAC_SHA1_80","AES_CM_128_HMAC_SHA1_32"],"dataChannelVersion":1,"effectsVersion":12,"gpuDescription":"","gpuDeviceId":0,"gpuDeviceName":"","gpuDriver":"","gpuDriverVersion":"","gpuVendorId":0,"iceVersion":1,"machineModel":"Not available","remotingAssistanceAllowed":1,"remotingVersion":1,"renderer":2,"rtcpMux":true,"screencast":2,"screencastLocalPreview":1,"supportsConcurrentSessions":true,"transports":["i","gice"],"unsignalledRecvStreams":2,"videoCodecs":[[100,"VP8",640,400,30],[116,"red",640,400,30],[117,"ulpfec",640,400,30]],"videoRtpHdrExts":[{"id":2,"uri":"urn:ietf:params:rtp-hdrext:toffset"},{"id":3,"uri":"http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time"}],"vsVersion":1}]
+[006:238] 0x7fac50349790: HandleOnlineCheck: Starting check
+[006:238] 0x7fac50349790: HandleOnlineCheck: OK; current state: 3
+[006:539] 0x7fac50349700: HandleOnlineCheck: Starting check
+[006:539] 0x7fac50349700: HandleOnlineCheck: OK; current state: 3
+[1126:021] Starting client channel.
+[1126:021] Warning(clientchannel.cc:486): 0x7fac50349790: Unreadable or no port file.  Could not initiate GoogleTalkPlugin connection
+[1126:021] 0x7fac50349790: SendConnectStatus: Connect Status: 
+[
+	"f-connect",
+	
+	{
+		"error" : -1,
+		"step" : "0"
+	}
+]
+
+[1126:022] Warning(clientchannel.cc:459): 0x7fac50349790: Could not initiate GoogleTalkPlugin connection
+[1126:022] 0x7fac50349790: GoogleTalkPlugin not running. Starting new process...
+[1126:022] Starting Flute
+[1126:022] Warning(pluginutils.cc:269): Failed to get GoogleTalkPlugin path. Trying default.
+[1126:023] Started GoogleTalkPlugin, path=/opt/google/talkplugin/GoogleTalkPlugin
+[1126:023] 0x7fac50349790: SendConnectStatus: Connect Status: 
+[
+	"f-connect",
+	
+	{
+		"step" : "2"
+	}
+]
+
+[1126:024] 0x7fac50349790: Waiting for GoogleTalkPlugin to start...
+[1126:034] Error(clientchannel.cc:260): 0x7fac50349700: Called ClientChannel::Stop() on a client channel which was not running.
+[1127:120] 0x7fac50349790: Attempting to connect to GoogleTalkPlugin...
+[1127:120] Read port file, port=51401
+[1127:121] 0x7fac50349790: SendConnectStatus: Connect Status: 
+[
+	"f-connect",
+	
+	{
+		"step" : "0"
+	}
+]
+
+[1127:121] 0x7fac4e1453d0:  sending cookie 5ZVyezm3hvXnCJ3Y
+[1127:121] 0x7fac50349790: SendConnectStatus: Connect Status: 
+[
+	"f-connect",
+	
+	{
+		"step" : "1"
+	}
+]
+
+[1127:122] 0x7fac50349790: Initiated connection to GoogleTalkPlugin
+[1127:221] 0x7fac50349790: SendConnectStatus: Connect Status: 
+[
+	"f-connect",
+	
+	{
+		"step" : "3"
+	}
+]
+
+[1127:246] 0x7fac50349790: Socket connection established
+[1127:246] 0x7fac50349790: ScheduleOnlineCheck: Online check in 5000ms
+[1127:322] 0x7fac4e1453d0: Got cookie response, socket is authorized
+[1127:322] 0x7fac50349790: AUTHORIZED; socket handshake complete
+[1127:340] 0x7fac50349790: C->F: ["mf",2,{"appName":"wabel_mediacall","buildLabel":"chat_web_connection_server_20160920.09_p0","allowConcurrentSessions":"true","cams":[{"usbid":"046d:0809","w":640,"h":480,"fps":30},{"usbid":"046d:09a6","w":640,"h":480,"fps":30},{"usbid":"046d:08ca","w":640,"h":480,"fps":30},{"usbid":"046d:0990","w":640,"h":480,"fps":30},{"usbid":"17ef:480f","w":640,"h":480,"fps":30},{"usbid":"5986:02d5","w":640,"h":480,"fps":30},{"usbid":"5986:0361","w":640,"h":480,"fps":30},{"name":"MT9M114","w":640,"h":480,"fps":30},{"name":"OV5693","w":640,"h":480,"fps":30},{"usbid":"05ac:8507","w":640,"h":480,"fps":30},{"usbid":"05ac:850a","w":640,"h":480,"fps":30},{"usbid":"05ac:8509"},{"usbid":"05ac:8510"},{"usbid":"046d:0823"},{"usbid":"046d:0821"},{"usbid":"046d:082d"},{"usbid":"046d:0843"},{"usbid":"046d:082c"},{"usbid":"046d:0826"},{"usbid":"046d:081d"},{"usbid":"046d:081b"},{"usbid":"046d:0825"},{"usbid":"045e:075d"},{"usbid":"045e:0772"},{"name":"Pan Tilt Zoom Camera"},{"name":"AJA SDI input"},{"name":"AJA HDMI input"},{"usbid":"04f2:b2a4"},{"usbid":"0839:1095"},{"usbid":"0ac8:3530"},{"usbid":"5555:3411"},{"usbid":"1778:0204"},{"usbid":"1778:0206"}],"exps":["mef","msv","tm","hc","ric","hmb","hre","wv","bpd","cc","gii","hem","ols","hvr","spar","tl","wvlm","jdv3","poc","wed","poc"],"jid":"alessandro.caetanob@gmail.com","renderer":2,"useBrowserHttp":true,"o3dVersion":"0.1.44.29","domain":"hangouts.google.com","useragent":"Mozilla/5.0 (X11; Linux x86_64; rv:48.0) Gecko/20100101 Firefox/48.0","pluginversion":"5.41.0.0"}]
+[1127:341] 0x7fac50349790: F->C: ["fs",{"pr":"a"}]
+[1127:423] 0x7fac50349790: F->C: ["mf","mf5.41","5.41.0.0",2,{"audioCodecs":[[111,"opus",2,64000,48000],[103,"ISAC",1,0,16000],[104,"ISAC",1,0,32000],[9,"G722",1,64000,8000],[102,"ILBC",1,13300,8000],[0,"PCMU",1,64000,8000],[8,"PCMA",1,64000,8000],[106,"CN",1,0,32000],[105,"CN",1,0,16000],[13,"CN",1,0,8000],[127,"red",1,0,8000],[126,"telephone-event",1,0,8000]],"audioRtpHdrExts":[{"id":1,"uri":"urn:ietf:params:rtp-hdrext:ssrc-audio-level"},{"id":3,"uri":"http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time"}],"bundle":1,"camDeviceName":"WebCam SC-13HDL11939N","caps":15,"cpuAdaptVersion":1,"cpuArchitecture":1,"cpuCacheSize":6291456,"cpuFamily":6,"cpuFlags":["sse2","ssse3","sse4_1","sse4_2","avx"],"cpuHasSSE2":true,"cpuModel":58,"cpuSpeed":3400,"cpuStepping":9,"cpuVendor":"GenuineIntel","cpus":8,"cpusPhysical":4,"cryptoRandom":"3fbqzF+O37sVdeq8Fsq15jyO","cryptoSuites":["AES_CM_128_HMAC_SHA1_80","AES_CM_128_HMAC_SHA1_32"],"dataChannelVersion":1,"effectsVersion":12,"gpuDescription":"","gpuDeviceId":0,"gpuDeviceName":"","gpuDriver":"","gpuDriverVersion":"","gpuVendorId":0,"iceVersion":1,"machineModel":"Not available","remotingAssistanceAllowed":1,"remotingVersion":1,"renderer":2,"rtcpMux":true,"screencast":2,"screencastLocalPreview":1,"supportsConcurrentSessions":true,"transports":["i","gice","ice"],"unsignalledRecvStreams":2,"videoCodecs":[[100,"VP8",640,400,30],[96,"rtx",640,400,30,{"apt":"100"}],[116,"red",640,400,30],[117,"ulpfec",640,400,30]],"videoRtpHdrExts":[{"id":2,"uri":"urn:ietf:params:rtp-hdrext:toffset"},{"id":3,"uri":"http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time"}],"vsVersion":1}]
+[1127:428] 0x7fac50349790: C->F: ["jec",[[100,"VP8",1280,720,30]],{"num_threads":-1,"cpu_profile":61,"apply_immediately":true,"force_reopen":false}]
+[1127:429] 0x7fac50349790: C->F: ["getdevicestate"]
+[1127:429] 0x7fac50349790: F->C: ["getproxyforurl",{"url":"https://relay.google.com/"}]
+[1127:432] 0x7fac50349790: C->F: ["proxyinfo",{"config":"DIRECT","error":0}]
+
+[1127:523] 0x7fac50349790: F->C: ["getdevicestate","15","0",["__default_device","Áudio interno Estéreo analógico"],"0",["__default_device","Áudio interno Estéreo analógico"],"0",["WebCam SC-13HDL11939N"]]
+[1127:567] Starting client channel.
+[1127:567] Read port file, port=51401
+[1127:567] 0x7fac50349700: SendConnectStatus: Connect Status: 
+[
+	"f-connect",
+	
+	{
+		"step" : "0"
+	}
+]
+
+[1127:568] 0x7fac4e1450b0:  sending cookie 5ZVyezm3hvXnCJ3Y
+[1127:568] 0x7fac50349700: SendConnectStatus: Connect Status: 
+[
+	"f-connect",
+	
+	{
+		"step" : "1"
+	}
+]
+
+[1127:568] 0x7fac50349700: Initiated connection to GoogleTalkPlugin
+[1127:624] 0x7fac50349700: SendConnectStatus: Connect Status: 
+[
+	"f-connect",
+	
+	{
+		"step" : "3"
+	}
+]
+
+[1127:625] 0x7fac50349700: Socket connection established
+[1127:625] 0x7fac50349700: ScheduleOnlineCheck: Online check in 5000ms
+[1127:664] 0x7fac4e1450b0: Got cookie response, socket is authorized
+[1127:664] 0x7fac50349700: AUTHORIZED; socket handshake complete
+[1127:667] 0x7fac50349700: C->F: ["mf",2,{"jid":"alessandro.caetanob@gmail.com","domain":"hangouts.google.com","useragent":"Mozilla/5.0 (X11; Linux x86_64; rv:48.0) Gecko/20100101 Firefox/48.0","pluginversion":"5.41.0.0"}]
+[1127:667] 0x7fac50349700: F->C: ["fs",{"pr":"a"}]
+[1127:725] 0x7fac50349700: F->C: ["mf","mf5.41","5.41.0.0",2,{"audioCodecs":[[103,"ISAC",1,0,16000],[111,"opus",2,64000,48000],[104,"ISAC",1,0,32000],[9,"G722",1,64000,8000],[102,"ILBC",1,13300,8000],[0,"PCMU",1,64000,8000],[8,"PCMA",1,64000,8000],[106,"CN",1,0,32000],[105,"CN",1,0,16000],[13,"CN",1,0,8000],[127,"red",1,0,8000],[126,"telephone-event",1,0,8000]],"audioRtpHdrExts":[{"id":1,"uri":"urn:ietf:params:rtp-hdrext:ssrc-audio-level"},{"id":3,"uri":"http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time"}],"camDeviceName":"WebCam SC-13HDL11939N","caps":15,"cpuAdaptVersion":1,"cpuArchitecture":1,"cpuCacheSize":6291456,"cpuFamily":6,"cpuFlags":["sse2","ssse3","sse4_1","sse4_2","avx"],"cpuHasSSE2":true,"cpuModel":58,"cpuSpeed":3400,"cpuStepping":9,"cpuVendor":"GenuineIntel","cpus":8,"cpusPhysical":4,"cryptoRandom":"rUmM/q3eDERLD8lqGFV1BdRd","cryptoSuites":["AES_CM_128_HMAC_SHA1_80","AES_CM_128_HMAC_SHA1_32"],"dataChannelVersion":1,"effectsVersion":12,"gpuDescription":"","gpuDeviceId":0,"gpuDeviceName":"","gpuDriver":"","gpuDriverVersion":"","gpuVendorId":0,"iceVersion":1,"machineModel":"Not available","remotingAssistanceAllowed":1,"remotingVersion":1,"renderer":2,"rtcpMux":true,"screencast":2,"screencastLocalPreview":1,"supportsConcurrentSessions":true,"transports":["i","gice"],"unsignalledRecvStreams":2,"videoCodecs":[[100,"VP8",640,400,30],[116,"red",640,400,30],[117,"ulpfec",640,400,30]],"videoRtpHdrExts":[{"id":2,"uri":"urn:ietf:params:rtp-hdrext:toffset"},{"id":3,"uri":"http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time"}],"vsVersion":1}]
+[1132:276] 0x7fac50349790: HandleOnlineCheck: Starting check
+[1132:276] 0x7fac50349790: HandleOnlineCheck: OK; current state: 3
+[1132:638] 0x7fac50349700: HandleOnlineCheck: Starting check
+[1132:638] 0x7fac50349700: HandleOnlineCheck: OK; current state: 3
+[2273:075] Starting client channel.
+[2273:075] Warning(clientchannel.cc:486): 0x7fac50349790: Unreadable or no port file.  Could not initiate GoogleTalkPlugin connection
+[2273:075] 0x7fac50349790: SendConnectStatus: Connect Status: 
+[
+	"f-connect",
+	
+	{
+		"error" : -1,
+		"step" : "0"
+	}
+]
+
+[2273:076] Warning(clientchannel.cc:459): 0x7fac50349790: Could not initiate GoogleTalkPlugin connection
+[2273:076] 0x7fac50349790: GoogleTalkPlugin not running. Starting new process...
+[2273:076] Starting Flute
+[2273:076] Warning(pluginutils.cc:269): Failed to get GoogleTalkPlugin path. Trying default.
+[2273:077] Started GoogleTalkPlugin, path=/opt/google/talkplugin/GoogleTalkPlugin
+[2273:077] 0x7fac50349790: SendConnectStatus: Connect Status: 
+[
+	"f-connect",
+	
+	{
+		"step" : "2"
+	}
+]
+
+[2273:078] 0x7fac50349790: Waiting for GoogleTalkPlugin to start...
+[2273:109] Error(clientchannel.cc:260): 0x7fac50349700: Called ClientChannel::Stop() on a client channel which was not running.
+[2274:170] 0x7fac50349790: Attempting to connect to GoogleTalkPlugin...
+[2274:170] Read port file, port=59541
+[2274:171] 0x7fac50349790: SendConnectStatus: Connect Status: 
+[
+	"f-connect",
+	
+	{
+		"step" : "0"
+	}
+]
+
+[2274:172] 0x7fac4e145240:  sending cookie q9dgs7kBRgCZmxW6
+[2274:172] 0x7fac50349790: SendConnectStatus: Connect Status: 
+[
+	"f-connect",
+	
+	{
+		"step" : "1"
+	}
+]
+
+[2274:172] 0x7fac50349790: Initiated connection to GoogleTalkPlugin
+[2274:271] 0x7fac50349790: SendConnectStatus: Connect Status: 
+[
+	"f-connect",
+	
+	{
+		"step" : "3"
+	}
+]
+
+[2274:272] 0x7fac50349790: Socket connection established
+[2274:272] 0x7fac50349790: ScheduleOnlineCheck: Online check in 5000ms
+[2274:371] 0x7fac4e145240: Got cookie response, socket is authorized
+[2274:371] 0x7fac50349790: AUTHORIZED; socket handshake complete
+[2274:377] 0x7fac50349790: C->F: ["mf",2,{"appName":"wabel_mediacall","buildLabel":"chat_web_connection_server_20160920.09_p0","allowConcurrentSessions":"true","cams":[{"usbid":"046d:0809","w":640,"h":480,"fps":30},{"usbid":"046d:09a6","w":640,"h":480,"fps":30},{"usbid":"046d:08ca","w":640,"h":480,"fps":30},{"usbid":"046d:0990","w":640,"h":480,"fps":30},{"usbid":"17ef:480f","w":640,"h":480,"fps":30},{"usbid":"5986:02d5","w":640,"h":480,"fps":30},{"usbid":"5986:0361","w":640,"h":480,"fps":30},{"name":"MT9M114","w":640,"h":480,"fps":30},{"name":"OV5693","w":640,"h":480,"fps":30},{"usbid":"05ac:8507","w":640,"h":480,"fps":30},{"usbid":"05ac:850a","w":640,"h":480,"fps":30},{"usbid":"05ac:8509"},{"usbid":"05ac:8510"},{"usbid":"046d:0823"},{"usbid":"046d:0821"},{"usbid":"046d:082d"},{"usbid":"046d:0843"},{"usbid":"046d:082c"},{"usbid":"046d:0826"},{"usbid":"046d:081d"},{"usbid":"046d:081b"},{"usbid":"046d:0825"},{"usbid":"045e:075d"},{"usbid":"045e:0772"},{"name":"Pan Tilt Zoom Camera"},{"name":"AJA SDI input"},{"name":"AJA HDMI input"},{"usbid":"04f2:b2a4"},{"usbid":"0839:1095"},{"usbid":"0ac8:3530"},{"usbid":"5555:3411"},{"usbid":"1778:0204"},{"usbid":"1778:0206"}],"exps":["spar","wv","mef","msv","gii","hre","hmb","tm","hem","cc","tl","bpd","ols","ric","hvr","hc","wvlm","jdv3","poc","wed","poc"],"jid":"alessandro.caetanob@gmail.com","renderer":2,"useBrowserHttp":true,"o3dVersion":"0.1.44.29","domain":"hangouts.google.com","useragent":"Mozilla/5.0 (X11; Linux x86_64; rv:48.0) Gecko/20100101 Firefox/48.0","pluginversion":"5.41.0.0"}]
+[2274:378] 0x7fac50349790: F->C: ["fs",{"pr":"a"}]
+[2274:472] 0x7fac50349790: F->C: ["mf","mf5.41","5.41.0.0",2,{"audioCodecs":[[111,"opus",2,64000,48000],[103,"ISAC",1,0,16000],[104,"ISAC",1,0,32000],[9,"G722",1,64000,8000],[102,"ILBC",1,13300,8000],[0,"PCMU",1,64000,8000],[8,"PCMA",1,64000,8000],[106,"CN",1,0,32000],[105,"CN",1,0,16000],[13,"CN",1,0,8000],[127,"red",1,0,8000],[126,"telephone-event",1,0,8000]],"audioRtpHdrExts":[{"id":1,"uri":"urn:ietf:params:rtp-hdrext:ssrc-audio-level"},{"id":3,"uri":"http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time"}],"bundle":1,"camDeviceName":"WebCam SC-13HDL11939N","caps":15,"cpuAdaptVersion":1,"cpuArchitecture":1,"cpuCacheSize":6291456,"cpuFamily":6,"cpuFlags":["sse2","ssse3","sse4_1","sse4_2","avx"],"cpuHasSSE2":true,"cpuModel":58,"cpuSpeed":3400,"cpuStepping":9,"cpuVendor":"GenuineIntel","cpus":8,"cpusPhysical":4,"cryptoRandom":"aIb2loDUidfMFt1cPDFb8mz1","cryptoSuites":["AES_CM_128_HMAC_SHA1_80","AES_CM_128_HMAC_SHA1_32"],"dataChannelVersion":1,"effectsVersion":12,"gpuDescription":"","gpuDeviceId":0,"gpuDeviceName":"","gpuDriver":"","gpuDriverVersion":"","gpuVendorId":0,"iceVersion":1,"machineModel":"Not available","remotingAssistanceAllowed":1,"remotingVersion":1,"renderer":2,"rtcpMux":true,"screencast":2,"screencastLocalPreview":1,"supportsConcurrentSessions":true,"transports":["i","gice","ice"],"unsignalledRecvStreams":2,"videoCodecs":[[100,"VP8",640,400,30],[96,"rtx",640,400,30,{"apt":"100"}],[116,"red",640,400,30],[117,"ulpfec",640,400,30]],"videoRtpHdrExts":[{"id":2,"uri":"urn:ietf:params:rtp-hdrext:toffset"},{"id":3,"uri":"http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time"}],"vsVersion":1}]
+[2274:506] 0x7fac50349790: C->F: ["jec",[[100,"VP8",1280,720,30]],{"num_threads":-1,"cpu_profile":61,"apply_immediately":true,"force_reopen":false}]
+[2274:506] 0x7fac50349790: C->F: ["getdevicestate"]
+[2274:507] 0x7fac50349790: F->C: ["getproxyforurl",{"url":"https://relay.google.com/"}]
+[2274:515] 0x7fac50349790: C->F: ["proxyinfo",{"config":"DIRECT","error":0}]
+
+[2274:531] Starting client channel.
+[2274:531] Read port file, port=59541
+[2274:531] 0x7fac50349700: SendConnectStatus: Connect Status: 
+[
+	"f-connect",
+	
+	{
+		"step" : "0"
+	}
+]
+
+[2274:531] 0x7fac4e1450b0:  sending cookie q9dgs7kBRgCZmxW6
+[2274:531] 0x7fac50349700: SendConnectStatus: Connect Status: 
+[
+	"f-connect",
+	
+	{
+		"step" : "1"
+	}
+]
+
+[2274:532] 0x7fac50349700: Initiated connection to GoogleTalkPlugin
+[2274:573] 0x7fac50349790: F->C: ["getdevicestate","15","0",["__default_device","Áudio interno Estéreo analógico"],"0",["__default_device","Áudio interno Estéreo analógico"],"0",["WebCam SC-13HDL11939N"]]
+[2274:574] 0x7fac50349700: SendConnectStatus: Connect Status: 
+[
+	"f-connect",
+	
+	{
+		"step" : "3"
+	}
+]
+
+[2274:575] 0x7fac50349700: Socket connection established
+[2274:575] 0x7fac50349700: ScheduleOnlineCheck: Online check in 5000ms
+[2274:627] 0x7fac4e1450b0: Got cookie response, socket is authorized
+[2274:627] 0x7fac50349700: AUTHORIZED; socket handshake complete
+[2274:630] 0x7fac50349700: C->F: ["mf",2,{"jid":"alessandro.caetanob@gmail.com","domain":"hangouts.google.com","useragent":"Mozilla/5.0 (X11; Linux x86_64; rv:48.0) Gecko/20100101 Firefox/48.0","pluginversion":"5.41.0.0"}]
+[2274:631] 0x7fac50349700: F->C: ["fs",{"pr":"a"}]
+[2274:727] 0x7fac50349700: F->C: ["mf","mf5.41","5.41.0.0",2,{"audioCodecs":[[103,"ISAC",1,0,16000],[111,"opus",2,64000,48000],[104,"ISAC",1,0,32000],[9,"G722",1,64000,8000],[102,"ILBC",1,13300,8000],[0,"PCMU",1,64000,8000],[8,"PCMA",1,64000,8000],[106,"CN",1,0,32000],[105,"CN",1,0,16000],[13,"CN",1,0,8000],[127,"red",1,0,8000],[126,"telephone-event",1,0,8000]],"audioRtpHdrExts":[{"id":1,"uri":"urn:ietf:params:rtp-hdrext:ssrc-audio-level"},{"id":3,"uri":"http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time"}],"camDeviceName":"WebCam SC-13HDL11939N","caps":15,"cpuAdaptVersion":1,"cpuArchitecture":1,"cpuCacheSize":6291456,"cpuFamily":6,"cpuFlags":["sse2","ssse3","sse4_1","sse4_2","avx"],"cpuHasSSE2":true,"cpuModel":58,"cpuSpeed":3400,"cpuStepping":9,"cpuVendor":"GenuineIntel","cpus":8,"cpusPhysical":4,"cryptoRandom":"fAoZjoEDMYRYmNesSrvtrG1G","cryptoSuites":["AES_CM_128_HMAC_SHA1_80","AES_CM_128_HMAC_SHA1_32"],"dataChannelVersion":1,"effectsVersion":12,"gpuDescription":"","gpuDeviceId":0,"gpuDeviceName":"","gpuDriver":"","gpuDriverVersion":"","gpuVendorId":0,"iceVersion":1,"machineModel":"Not available","remotingAssistanceAllowed":1,"remotingVersion":1,"renderer":2,"rtcpMux":true,"screencast":2,"screencastLocalPreview":1,"supportsConcurrentSessions":true,"transports":["i","gice"],"unsignalledRecvStreams":2,"videoCodecs":[[100,"VP8",640,400,30],[116,"red",640,400,30],[117,"ulpfec",640,400,30]],"videoRtpHdrExts":[{"id":2,"uri":"urn:ietf:params:rtp-hdrext:toffset"},{"id":3,"uri":"http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time"}],"vsVersion":1}]
+[2279:286] 0x7fac50349790: HandleOnlineCheck: Starting check
+[2279:286] 0x7fac50349790: HandleOnlineCheck: OK; current state: 3
+[2279:587] 0x7fac50349700: HandleOnlineCheck: Starting check
+[2279:587] 0x7fac50349700: HandleOnlineCheck: OK; current state: 3

@@ -1,0 +1,124 @@
+[000:000] Cpu: 6.58.9, x8, 3400Mhz, 7875MB
+[000:000] Computer model: Not available
+[000:000] [o1d7707-1] Listening for HELLO.
+[000:053] [o1d7707-1] Shutting down instance.
+[000:053] [o1d7707-1] Client disconnected.
+[000:416] [o1d7707-2] Listening for HELLO.
+[000:497] [o1d7707-2] Client connected.
+[000:497] [o1d7707-2] Registered new shared memory segment at 100
+[000:795] [o1d7707-2] Unmapping shared mem: 100
+[000:795] Created new pool buffer at 0x7fcd49c41000, 3680 bytes
+[000:795] [o1d7707-2] Registered new shared memory segment at 101
+[000:842] [o1d7707-2] Sending rendering size change: 921x519
+[000:895] [o1d7707-2] Unmapping shared mem: 101
+[000:895] Created new pool buffer at 0x7fcd49c47000, 14400 bytes
+[000:896] [o1d7707-2] Registered new shared memory segment at 102
+[000:997] [o1d7707-2] Unmapping shared mem: 102
+[000:997] Created new pool buffer at 0x7fcd49302000, 921600 bytes
+[000:998] [o1d7707-2] Registered new shared memory segment at 103
+[001:974] Error(naclhelpers.cc:62): NaClSendDatagram failed : Pipe quebrado
+[002:008] Error(naclhelpers.cc:62): NaClSendDatagram failed : Pipe quebrado
+[002:041] Error(naclhelpers.cc:62): NaClSendDatagram failed : Pipe quebrado
+[002:075] [o1d7707-2] Client disconnected.
+[002:075] Created new pool buffer at 0x7fcd48d00000, 3686400 bytes
+[002:076] Error(naclhelpers.cc:62): NaClSendDatagram failed : Pipe quebrado
+[002:140] [o1d7707-3] Listening for HELLO.
+[002:142] [o1d7707-2] Client connected.
+[002:142] [o1d7707-2] Registered new shared memory segment at 104
+[002:152] [o1d7707-4] Listening for HELLO.
+[002:175] [o1d7707-4] Client connected.
+[002:176] [o1d7707-4] Registered new shared memory segment at 105
+[003:800] [o1d7707-4] Sending rendering size change: 100x100
+[003:800] [o1d7707-4] Unmapping shared mem: 105
+[003:800] Created new pool buffer at 0x7fcd493e5000, 14400 bytes
+[003:800] [o1d7707-4] Registered new shared memory segment at 106
+[003:894] [o1d7707-2] Sending rendering size change: 1216x684
+[003:894] [o1d7707-4] Sending rendering size change: 178x100
+[003:900] [o1d7707-2] Unmapping shared mem: 104
+[003:901] [o1d7707-2] Registered new shared memory segment at 107
+[003:901] [o1d7707-4] Unmapping shared mem: 106
+[003:901] Created new pool buffer at 0x7fcd493eb000, 57600 bytes
+[003:901] [o1d7707-4] Registered new shared memory segment at 108
+[004:033] [o1d7707-4] Unmapping shared mem: 108
+[004:033] [o1d7707-4] Registered new shared memory segment at 109
+[096:490] [o1d7707-2] Shutting down instance.
+[096:490] [o1d7707-2] Attached client while shutting down; sending shutdown notification.
+[096:491] [o1d7707-2] Client disconnected.
+[096:493] [o1d7707-3] Shutting down instance.
+[096:493] [o1d7707-3] Client disconnected.
+[096:494] [o1d7707-4] Shutting down instance.
+[096:494] [o1d7707-4] Attached client while shutting down; sending shutdown notification.
+[096:494] [o1d7707-4] Client disconnected.
+[102:876] [o1d7707-5] Listening for HELLO.
+[102:924] [o1d7707-5] Shutting down instance.
+[102:924] [o1d7707-5] Client disconnected.
+[103:365] [o1d7707-6] Listening for HELLO.
+[103:373] [o1d7707-6] Client connected.
+[103:373] [o1d7707-6] Registered new shared memory segment at 110
+[103:704] [o1d7707-6] Unmapping shared mem: 110
+[103:704] Created new pool buffer at 0x7fcd493ed000, 3680 bytes
+[103:704] [o1d7707-6] Registered new shared memory segment at 111
+[103:834] [o1d7707-6] Sending rendering size change: 921x519
+[103:847] [o1d7707-6] Unmapping shared mem: 111
+[103:848] Created new pool buffer at 0x7fcd493f3000, 14400 bytes
+[103:848] [o1d7707-6] Registered new shared memory segment at 112
+[103:948] [o1d7707-6] Unmapping shared mem: 112
+[103:948] Created new pool buffer at 0x7fcd49302000, 921600 bytes
+[103:948] [o1d7707-6] Registered new shared memory segment at 113
+[104:852] [o1d7707-7] Listening for HELLO.
+[104:925] [o1d7707-8] Listening for HELLO.
+[104:981] [o1d7707-8] Client connected.
+[104:981] [o1d7707-8] Registered new shared memory segment at 114
+[105:047] [o1d7707-8] Sending rendering size change: 100x100
+[105:047] [o1d7707-8] Unmapping shared mem: 114
+[105:047] Created new pool buffer at 0x7fcd493e3000, 14400 bytes
+[105:047] [o1d7707-8] Registered new shared memory segment at 115
+[105:151] [o1d7707-8] Sending rendering size change: 178x100
+[105:181] [o1d7707-8] Unmapping shared mem: 115
+[105:181] Created new pool buffer at 0x7fcd49c3f000, 57600 bytes
+[105:181] [o1d7707-8] Registered new shared memory segment at 116
+[105:314] [o1d7707-8] Unmapping shared mem: 116
+[105:314] [o1d7707-8] Registered new shared memory segment at 117
+[107:779] [o1d7707-7] Client connected.
+[107:779] [o1d7707-7] Registered new shared memory segment at 118
+[107:846] [o1d7707-7] Sending rendering size change: 921x519
+[107:846] [o1d7707-7] Unmapping shared mem: 118
+[107:846] Created new pool buffer at 0x7fcd49402000, 921600 bytes
+[107:846] [o1d7707-7] Registered new shared memory segment at 119
+[118:244] [o1d7707-9] Listening for HELLO.
+[119:255] Warning(flutemessagelistener.cc:170): [o1d7707-6] Got a HELLO on an already-connected socket.
+[119:255] [o1d7707-6] Client disconnected.
+[119:255] Created new pool buffer at 0x7fcd48d00000, 3686400 bytes
+[119:257] [o1d7707-6] Client connected.
+[119:257] [o1d7707-6] Registered new shared memory segment at 120
+[119:257] [o1d7707-9] Client connected.
+[119:257] [o1d7707-9] Registered new shared memory segment at 121
+[119:955] [o1d7707-9] Sending rendering size change: 100x100
+[119:955] [o1d7707-9] Unmapping shared mem: 121
+[119:955] Created new pool buffer at 0x7fcd493e7000, 14400 bytes
+[119:955] [o1d7707-9] Registered new shared memory segment at 122
+[120:043] [o1d7707-9] Sending rendering size change: 178x100
+[120:088] [o1d7707-9] Unmapping shared mem: 122
+[120:088] Created new pool buffer at 0x7fcd494e3000, 57600 bytes
+[120:088] [o1d7707-9] Registered new shared memory segment at 123
+[120:144] [o1d7707-7] Sending rendering size change: 1216x684
+[120:144] [o1d7707-6] Sending rendering size change: 1216x684
+[120:222] [o1d7707-6] Unmapping shared mem: 120
+[120:223] [o1d7707-6] Registered new shared memory segment at 124
+[120:256] [o1d7707-9] Unmapping shared mem: 123
+[120:256] [o1d7707-9] Registered new shared memory segment at 125
+[5553:511] [o1d7707-9] Sending rendering size change: 100x100
+[5553:701] [o1d7707-7] Sending rendering size change: 921x519
+[5553:701] [o1d7707-6] Sending rendering size change: 921x519
+[5554:048] [o1d7707-9] Shutting down instance.
+[5554:048] [o1d7707-9] Attached client while shutting down; sending shutdown notification.
+[5554:048] [o1d7707-9] Client disconnected.
+[5562:415] [o1d7707-8] Shutting down instance.
+[5562:415] [o1d7707-8] Attached client while shutting down; sending shutdown notification.
+[5562:415] [o1d7707-8] Client disconnected.
+[5562:432] [o1d7707-6] Shutting down instance.
+[5562:432] [o1d7707-6] Attached client while shutting down; sending shutdown notification.
+[5562:433] [o1d7707-6] Client disconnected.
+[5562:434] [o1d7707-7] Shutting down instance.
+[5562:434] [o1d7707-7] Attached client while shutting down; sending shutdown notification.
+[5562:434] [o1d7707-7] Client disconnected.

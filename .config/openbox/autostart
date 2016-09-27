@@ -20,11 +20,10 @@ nitrogen --restore &
 #Navbar with tint2
 tint2	&
 #Conky for systeminfo
-conky -c /home/alessandrocb/.config/conky/conkyrc1 &
-conky -c /home/alessandrocb/.config/conky/conkyrcO &
+conky -c /home/alessandrocb/.conkycolors/conkyrc &
 #NetworkManager Applet
 nm-applet &
 #Volume ctl
-volumeicon &
+volti &
 #Batery Mngr
 cbatticon &

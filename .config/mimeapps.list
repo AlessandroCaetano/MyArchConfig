@@ -1,3 +1,16 @@
 [Added Associations]
 application/zip=xarchiver.desktop;
 text/html=abiword.desktop;
+application/pdf=evince.desktop;okularApplication_pdf.desktop;epdfview.desktop;inkscape.desktop;
+image/jpeg=feh.desktop;
+image/png=okularApplication_kimgio.desktop;feh.desktop;gimp.desktop;
+application/x-rar=xarchiver.desktop;
+text/plain=leafpad.desktop;
+application/vnd.oasis.opendocument.text=abiword.desktop;
+text/x-tex=leafpad.desktop;texmaker.desktop;
+text/x-bibtex=leafpad.desktop;
+application/vnd.openxmlformats-officedocument.wordprocessingml.document=libreoffice-writer.desktop;
+image/x-eps=inkscape.desktop;
+application/x-bibtex=leafpad.desktop;
+application/vnd.oasis.opendocument.spreadsheet=libreoffice-calc.desktop;
+application/vnd.openxmlformats-officedocument.presentationml.presentation=libreoffice-impress.desktop;

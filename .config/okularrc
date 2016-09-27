@@ -1,0 +1,27 @@
+[Desktop Entry]
+FullScreen=false
+
+[MainWindow]
+State=AAAA/wAAAAD9AAAAAAAABVYAAAKaAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Window-Maximized 768x1366=true
+
+[Recent Files]
+File1[$e]=$HOME/Documentos/Projetos/tcc/figuras/gtschema.png
+File2[$e]=$HOME/Documentos/wind.png
+File3[$e]=$HOME/Documentos/Projetos/pi2_relatorio/figuras/eq4.png
+File4[$e]=$HOME/Documentos/PI2.png
+File5[$e]=$HOME/Documentos/Projetos/tcc/figuras/melhorias.png
+File6[$e]=$HOME/Downloads/Untitled Diagram.png
+File7[$e]=$HOME/Downloads/Untitled Diagram(1).png
+File8[$e]=$HOME/Downloads/Untitled Diagram(2).png
+File9[$e]=$HOME/Downloads/baea.png
+Name1[$e]=gtschema.png
+Name2[$e]=wind.png
+Name3[$e]=eq4.png
+Name4[$e]=PI2.png
+Name5[$e]=melhorias.png
+Name6[$e]=Untitled Diagram.png
+Name7[$e]=Untitled Diagram(1).png
+Name8[$e]=Untitled Diagram(2).png
+Name9[$e]=baea.png

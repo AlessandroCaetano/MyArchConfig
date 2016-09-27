@@ -9,12 +9,11 @@
   <Global>
     <ExtraData>
       <ExtraDataItem name="GUI/DetailsPageBoxes" value="general,system,preview,display,storage,audio,network,usb,sharedFolders,description"/>
-      <ExtraDataItem name="GUI/GroupDefinitions/" value="m=94d6ba38-2a8f-421a-9e60-0602325c26db,m=bd4a9c7f-f1fd-43e7-b8d8-72b5d51e6a23,m=32792671-8b2b-4474-82cc-ed5db40c597e"/>
-      <ExtraDataItem name="GUI/LastItemSelected" value="m=packager_default_1457430040637_2994"/>
-      <ExtraDataItem name="GUI/LastWindowPosition" value="298,109,770,550"/>
+      <ExtraDataItem name="GUI/LastItemSelected" value="m=debian_default_1467299838903_68680"/>
+      <ExtraDataItem name="GUI/LastWindowPosition" value="367,149,770,550"/>
       <ExtraDataItem name="GUI/SplitterSizes" value="225,541"/>
-      <ExtraDataItem name="GUI/UpdateCheckCount" value="2"/>
-      <ExtraDataItem name="GUI/UpdateDate" value="1 d, 2016-03-11, stable, 5.0.14"/>
+      <ExtraDataItem name="GUI/UpdateCheckCount" value="5"/>
+      <ExtraDataItem name="GUI/UpdateDate" value="1 d, 2016-07-01, stable, 5.0.22"/>
       <ExtraDataItem name="HostOnly/vboxnet0/IPAddress" value="10.0.0.1"/>
       <ExtraDataItem name="HostOnly/vboxnet0/IPNetMask" value="255.255.255.0"/>
     </ExtraData>
@@ -22,7 +21,12 @@
       <MachineEntry uuid="{94d6ba38-2a8f-421a-9e60-0602325c26db}" src="/home/alessandrocb/VirtualBox VMs/packager_default_1457430040637_2994/packager_default_1457430040637_2994.vbox"/>
       <MachineEntry uuid="{bd4a9c7f-f1fd-43e7-b8d8-72b5d51e6a23}" src="/home/alessandrocb/VirtualBox VMs/HadoopClusterDeploy_Ambari_1457559732311_81191/HadoopClusterDeploy_Ambari_1457559732311_81191.vbox"/>
       <MachineEntry uuid="{0514561c-746c-48e9-b0b2-24aeb2564f82}" src="/home/alessandrocb/VirtualBox VMs/packager_default_1457628040429_49776/packager_default_1457628040429_49776.vbox"/>
-      <MachineEntry uuid="{ace78e82-86b5-4478-bb87-3c243a73167f}" src="/home/alessandrocb/VirtualBox VMs/packer-centos-7.0-x86_64_1458055060367_54051/packer-centos-7.0-x86_64_1458055060367_54051.vbox"/>
+      <MachineEntry uuid="{c9d049cc-8ef7-4030-9f4f-29b8dc6f7730}" src="/home/alessandrocb/VirtualBox VMs/packager_default_1463407632084_906/packager_default_1463407632084_906.vbox"/>
+      <MachineEntry uuid="{ac953caf-c55f-4331-bf05-af743b52bf72}" src="/home/alessandrocb/VirtualBox VMs/Projetos_default_1464777443091_49740/Projetos_default_1464777443091_49740.vbox"/>
+      <MachineEntry uuid="{9a715cf2-11dc-4e90-bcd7-67dc028a4f7b}" src="/home/alessandrocb/VirtualBox VMs/unreal-ubuntu_default_1464806338375_44140/unreal-ubuntu_default_1464806338375_44140.vbox"/>
+      <MachineEntry uuid="{d859f0e6-7f38-49c3-bb05-2a7c8d03ae89}" src="/home/alessandrocb/VirtualBox VMs/RPMPack-Demo_default_1465172330271_7353/RPMPack-Demo_default_1465172330271_7353.vbox"/>
+      <MachineEntry uuid="{a9d7ce6d-9ab8-4296-80ef-2155bda4e16c}" src="/home/alessandrocb/VirtualBox VMs/unrealengine-debian_default_1466529653053_92411/unrealengine-debian_default_1466529653053_92411.vbox"/>
+      <MachineEntry uuid="{cc7ec1f6-48b0-46c1-8498-ae03961cdf30}" src="/home/alessandrocb/VirtualBox VMs/debian_default_1467299838903_68680/debian_default_1467299838903_68680.vbox"/>
     </MachineRegistry>
     <MediaRegistry>
       <HardDisks/>

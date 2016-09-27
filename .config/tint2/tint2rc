@@ -1,136 +1,127 @@
-#---------------------------------------------
-# TINT2 CONFIG FILE
-#---------------------------------------------
+# Tint2 config file by Kexolino
 
-#---------------------------------------------
-# BACKGROUND AND BORDER
-#---------------------------------------------
-#Panel colors
-rounded = 12
-border_width = 2
-background_color = #ffffff 3
-border_color = #ffffff 0
+# Background definitions
 
-#Active task colors
-rounded = 5
+# ID 1
+rounded = 0
+border_width = 1
+background_color = #2D2D2D 100
+border_color = #484848 100
+
+# ID 2
+rounded = 0
 border_width = 0
-background_color = #000000 0
-border_color = #ffffff 0
+background_color = #1C1C1C 100
+border_color = #000000 100
 
-#Inactive task colors
-rounded = 5
-border_width = 0
-background_color = #000000 0
-border_color = #000000 0
-
-#---------------------------------------------
-# PANEL
-#---------------------------------------------
+# Panel
 panel_monitor = all
-panel_position = bottom center
-panel_size = 66% 28
-panel_margin = 0 0
-panel_padding = 0 0 0
-font_shadow = 0
-panel_background_id = 1
-wm_menu = 0
+panel_position =  bottom center horizontal
+panel_items = LTSC
+panel_size = 104% 31
+panel_margin = -2 -1
+panel_padding = 0 0 10
 panel_dock = 0
-panel_layer = bottom
+wm_menu = 1
+panel_layer = normal
+panel_background_id = 1
 
-#---------------------------------------------
-# TASKBAR
-#---------------------------------------------
-#taskbar_mode = multi_desktop
+# Panel Autohide
+autohide = 0
+autohide_show_timeout = 0.2
+autohide_hide_timeout = 1
+autohide_height = 0
+strut_policy = follow_size
+
+# Taskbar
 taskbar_mode = single_desktop
-taskbar_padding = 5 2 2
-taskbar_background_id = integer
-#taskbar_active_background_id = 0
+taskbar_padding = 0 0 10
+taskbar_background_id = 0
+taskbar_active_background_id = 0
 
-#---------------------------------------------
-# TASKS
-#---------------------------------------------
+# Tasks
+urgent_nb_of_blink = 20
 task_icon = 1
 task_text = 1
-task_maximum_size = 1000 35
 task_centered = 0
-task_padding = 5 2
-task_font = sans 8
-task_font_color = #ffffff 15
-task_background_id = integer
-task_icon_asb = 100 0 0
-# replace STATUS by 'urgent', 'active' or 'iconified'
-#task_STATUS_background_id = 2
-#task_STATUS_font_color = #ffffff 85
-#task_STATUS_icon_asb = 100 0 0
-# example:
+task_maximum_size = 200 32
+task_padding = 10 4
+task_background_id = 0
 task_active_background_id = 2
-task_active_font_color = #ffffff 35
-task_active_icon_asb = 100 0 0
-urgent_nb_of_blink = 8
+task_urgent_background_id = 0
+task_iconified_background_id = 0
 
-#---------------------------------------------
-# SYSTRAYBAR
-#---------------------------------------------
-systray = 0
-systray_padding = 5 4 5
-systray_background_id = 2
+# Task Icons
+task_icon_asb = 100 0 0
+task_active_icon_asb = 100 0 0
+task_urgent_icon_asb = 100 0 0
+task_iconified_icon_asb = 100 0 0
+
+# Fonts
+task_font = Droid Sans 9
+task_font_color = #dcdcdc 100
+task_active_font_color = #FFFFFF 100
+task_urgent_font_color = #FFFFFF 100
+task_iconified_font_color = #dcdcdc 80
+font_shadow = 0
+
+# System Tray
+systray = 1
+systray_padding = 0 6 15
 systray_sort = left2right
-systray_icon_size = 0
+systray_background_id = 0
+systray_icon_size = 16
 systray_icon_asb = 100 0 0
 
-#---------------------------------------------
-# CLOCK
-#---------------------------------------------
+# Launcher
+launcher_icon_theme = pixmaps
+launcher_padding = 2 2  
+launcher_background_id = 0 
+launcher_icon_size = 20 
+# Specify icon theme names with launcher_icon_theme. 
+# if you have an XSETTINGS manager running (like xfsettingsd), tint2 will follow your current theme.
+#launcher_icon_theme = AwOkenWhite
+# Each launcher_item_app must be a full path to a .desktop file
+launcher_item_app = /usr/share/applications/firefox.desktop
+launcher_item_app = /usr/share/applications/spotify.desktop
+launcher_item_app = /usr/share/applications/terminator.desktop
+
+# Clock
 time1_format = %H:%M
-time1_font = Oloron Tryout 20
-clock_font_color = #ffffff 35
-clock_padding = 10 2
-clock_background_id = integer
-#clock_lclick_command = xclock
-clock_rclick_command = orage
-#clock_tooltip = %A %d %B
-#time1_timezone = :US/Hawaii
-#time2_timezone = :Europe/Berlin
-#clock_tooltip_timezone = :/usr/share/zoneinfo/Europe/Paris
+time1_font = Droid Sans 9
+clock_font_color = #dcdcdc 100
+clock_tooltip = 
+clock_padding = 10 6
+clock_background_id = 0
+clock_lclick_command = gsimplecal
+time1_timezone = 
+time2_timezone = 
+clock_tooltip_timezone = 
 
-#---------------------------------------------
-# BATTERY
-#---------------------------------------------
-battery = 0
-battery_hide = 98
-battery_low_status = 10
-battery_low_cmd = notify-send "battery low"
-bat1_font = sans 8
-bat2_font = sans 6
-battery_font_color = #ffffff 76
-battery_padding = 1 0
-battery_background_id = 0
-
-#---------------------------------------------
-# TOOLTIP
-#---------------------------------------------
+# Tooltips
 tooltip = 0
 tooltip_padding = 2 2
-tooltip_show_timeout = 0.7
-tooltip_hide_timeout = 0.3
-tooltip_background_id = 1
-tooltip_font_color = #OOOOOO 80
-tooltip_font = sans 10
+tooltip_show_timeout = 0.0
+tooltip_hide_timeout = 0.0
+tooltip_background_id = 2
+tooltip_font = Droid Sans 9
+tooltip_font_color = #FFFFFF 100
 
-#---------------------------------------------
-# MOUSE ACTION ON TASK
-#---------------------------------------------
+# Mouse
 mouse_middle = none
 mouse_right = close
 mouse_scroll_up = toggle
 mouse_scroll_down = iconify
 
-#---------------------------------------------
-# AUTOHIDE OPTIONS
-#---------------------------------------------
-autohide = 0
-autohide_show_timeout = 0.3
-autohide_hide_timeout = 2
-autohide_height = 4
-strut_policy = minimum
+# Battery
+battery = 0
+battery_low_status = 20
+battery_low_cmd = notify-send "battery low"
+battery_hide = 96
+bat1_font = Liberation Mono 8
+bat2_font = Liberation Mono 8
+battery_font_color = #B5B5B5 100
+battery_padding = 2 0
+battery_background_id = 0
 
+# End of config

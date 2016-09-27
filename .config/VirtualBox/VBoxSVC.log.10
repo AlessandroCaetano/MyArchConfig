@@ -1,28 +1,50 @@
-VirtualBox XPCOM Server 5.0.14_OSE r105127 linux.amd64 (Jan 22 2016 00:45:18) release log
-00:00:00.012173 main     Log opened 2016-03-08T09:36:50.883036000Z
-00:00:00.012177 main     Build Type: release
-00:00:00.012182 main     OS Product: Linux
-00:00:00.012183 main     OS Release: 4.4.3-1-ARCH
-00:00:00.012184 main     OS Version: #1 SMP PREEMPT Fri Feb 26 15:09:29 CET 2016
-00:00:00.012221 main     DMI Product Name: 550P5C/550P7C
-00:00:00.012234 main     DMI Product Version: P05ABI
-00:00:00.012293 main     Host RAM: 7875MB total, 7150MB available
-00:00:00.012298 main     Executable: /usr/lib/virtualbox/VBoxSVC
-00:00:00.012299 main     Process ID: 16929
-00:00:00.012301 main     Package type: LINUX_64BITS_GENERIC (OSE)
-00:00:00.154102 nspr-2   Home directory: '/home/alessandrocb/.config/VirtualBox'
-00:00:00.214544 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp2s0: VBoxNetAdpCtl: ioctl failed: Operation not supported
-00:00:00.229005 nspr-2   HostDnsMonitor: old information
-00:00:00.229037 nspr-2     no server entries
-00:00:00.229043 nspr-2     no search string entries
-00:00:00.229048 nspr-2     no domain set
-00:00:00.229051 nspr-2   HostDnsMonitor: new information
-00:00:00.229055 nspr-2     server 1: 192.168.10.1
-00:00:00.229061 nspr-2     no search string entries
-00:00:00.229064 nspr-2     domain: unb.br
-00:00:00.229074 nspr-2   HostDnsMonitorProxy::notify
-00:00:00.287119 nspr-2   VD: VDInit finished
-00:00:00.293807 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={0eb668d2-495e-5a36-8890-29999b5f030c} aComponent={SystemPropertiesWrap} aText={Cannot determine default Guest Additions ISO location. Most likely they are not available}, preserve=false aResultDetail=0
-00:00:00.371992 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp2s0: VBoxNetAdpCtl: ioctl failed: Operation not supported
-00:00:05.797415 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={0169423f-46b4-cde9-91af-1e9d5b6cd945} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
-00:00:10.374336 main     {00007f1d10014bb0} HostPowerServiceLinux::~HostPowerServiceLinux: RTThreadWait() for 5000 ms failed with VERR_TIMEOUT
+VirtualBox XPCOM Server 5.0.22_OSE r108108 linux.amd64 (Jun 18 2016 04:17:22) release log
+00:00:00.000749 main     Log opened 2016-06-21T17:04:16.161574000Z
+00:00:00.000752 main     Build Type: release
+00:00:00.000756 main     OS Product: Linux
+00:00:00.000758 main     OS Release: 4.6.2-1-ARCH
+00:00:00.000759 main     OS Version: #1 SMP PREEMPT Wed Jun 8 08:40:59 CEST 2016
+00:00:00.000793 main     DMI Product Name: 550P5C/550P7C
+00:00:00.000802 main     DMI Product Version: P05ABI
+00:00:00.000856 main     Host RAM: 7875MB total, 6507MB available
+00:00:00.000861 main     Executable: /usr/lib/virtualbox/VBoxSVC
+00:00:00.000862 main     Process ID: 8252
+00:00:00.000863 main     Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.110017 nspr-2   Home directory: '/home/alessandrocb/.config/VirtualBox'
+00:00:00.110411 nspr-2   Loading settings file "/home/alessandrocb/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:00.126470 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp2s0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:00.127222 nspr-2   NAT: resolv.conf: nameserver 200.175.5.139
+00:00:00.127246 nspr-2   NAT: resolv.conf: nameserver 200.175.89.139
+00:00:00.127256 nspr-2   NAT: resolv.conf: nameserver 192.168.25.1
+00:00:00.127281 nspr-2   HostDnsMonitor: old information
+00:00:00.127287 nspr-2     no server entries
+00:00:00.127292 nspr-2     no domain set
+00:00:00.127296 nspr-2     no search string entries
+00:00:00.127300 nspr-2   HostDnsMonitor: new information
+00:00:00.127304 nspr-2     server 1: 200.175.5.139
+00:00:00.127310 nspr-2     server 2: 200.175.89.139
+00:00:00.127314 nspr-2     server 3: 192.168.25.1
+00:00:00.127318 nspr-2     domain: localdomain
+00:00:00.127322 nspr-2     no search string entries
+00:00:00.127331 nspr-2   HostDnsMonitorProxy::notify
+00:00:00.136625 nspr-2   failed to create vboxnet0, error (0x80004005)
+00:00:00.138672 nspr-2   VD: VDInit finished
+00:00:00.138786 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={0eb668d2-495e-5a36-8890-29999b5f030c} aComponent={SystemPropertiesWrap} aText={Cannot determine default Guest Additions ISO location. Most likely they are not available}, preserve=false aResultDetail=0
+00:00:00.144582 nspr-2   Loading settings file "/home/alessandrocb/VirtualBox VMs/packager_default_1457430040637_2994/packager_default_1457430040637_2994.vbox" with version "1.15-linux"
+00:00:00.145531 nspr-2   Loading settings file "/home/alessandrocb/VirtualBox VMs/HadoopClusterDeploy_Ambari_1457559732311_81191/HadoopClusterDeploy_Ambari_1457559732311_81191.vbox" with version "1.15-linux"
+00:00:00.146386 nspr-2   Loading settings file "/home/alessandrocb/VirtualBox VMs/packager_default_1457628040429_49776/packager_default_1457628040429_49776.vbox" with version "1.12-linux"
+00:00:00.147239 nspr-2   Loading settings file "/home/alessandrocb/VirtualBox VMs/packager_default_1463407632084_906/packager_default_1463407632084_906.vbox" with version "1.12-linux"
+00:00:00.148061 nspr-2   Loading settings file "/home/alessandrocb/VirtualBox VMs/Projetos_default_1464777443091_49740/Projetos_default_1464777443091_49740.vbox" with version "1.12-linux"
+00:00:00.148906 nspr-2   Loading settings file "/home/alessandrocb/VirtualBox VMs/unreal-ubuntu_default_1464806338375_44140/unreal-ubuntu_default_1464806338375_44140.vbox" with version "1.12-linux"
+00:00:00.149737 nspr-2   Loading settings file "/home/alessandrocb/VirtualBox VMs/RPMPack-Demo_default_1465172330271_7353/RPMPack-Demo_default_1465172330271_7353.vbox" with version "1.12-linux"
+00:00:00.150564 nspr-2   Loading settings file "/home/alessandrocb/VirtualBox VMs/unrealengine-debian_default_1466527139971_78033/unrealengine-debian_default_1466527139971_78033.vbox" with version "1.15-linux"
+00:00:09.505564 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={4afe423b-43e0-e9d0-82e8-ceb307940dda} aComponent={MediumWrap} aText={Medium '/home/alessandrocb/VirtualBox VMs/packager_default_1457430040637_2994/vagrant-virtualbox-box.vmdk' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:00:09.505820 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={4afe423b-43e0-e9d0-82e8-ceb307940dda} aComponent={MediumWrap} aText={Medium '/home/alessandrocb/VirtualBox VMs/HadoopClusterDeploy_Ambari_1457559732311_81191/vagrant-virtualbox-box.vmdk' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:00:09.505973 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={4afe423b-43e0-e9d0-82e8-ceb307940dda} aComponent={MediumWrap} aText={Medium '/home/alessandrocb/VirtualBox VMs/packager_default_1457628040429_49776/packer-centos-7.0-x86_64-disk1.vmdk' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:00:09.506128 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={4afe423b-43e0-e9d0-82e8-ceb307940dda} aComponent={MediumWrap} aText={Medium '/home/alessandrocb/VirtualBox VMs/packager_default_1463407632084_906/packer-centos-7.0-x86_64-disk1.vmdk' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:00:09.506280 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={4afe423b-43e0-e9d0-82e8-ceb307940dda} aComponent={MediumWrap} aText={Medium '/home/alessandrocb/VirtualBox VMs/Projetos_default_1464777443091_49740/box-disk1.vmdk' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:00:09.506428 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={4afe423b-43e0-e9d0-82e8-ceb307940dda} aComponent={MediumWrap} aText={Medium '/home/alessandrocb/VirtualBox VMs/unreal-ubuntu_default_1464806338375_44140/box-disk1.vmdk' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:00:09.506580 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={4afe423b-43e0-e9d0-82e8-ceb307940dda} aComponent={MediumWrap} aText={Medium '/home/alessandrocb/VirtualBox VMs/RPMPack-Demo_default_1465172330271_7353/packer-centos-7.0-x86_64-disk1.vmdk' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:00:09.506732 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={4afe423b-43e0-e9d0-82e8-ceb307940dda} aComponent={MediumWrap} aText={Medium '/home/alessandrocb/VirtualBox VMs/unrealengine-debian_default_1466527139971_78033/debian-jessie-disk1.vmdk' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:00:09.653513 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={0169423f-46b4-cde9-91af-1e9d5b6cd945} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:00:14.507343 main     {00007f78040146c0} HostPowerServiceLinux::~HostPowerServiceLinux: RTThreadWait() for 5000 ms failed with VERR_TIMEOUT

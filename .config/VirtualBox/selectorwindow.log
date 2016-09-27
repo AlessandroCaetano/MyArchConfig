@@ -1,19 +1,54 @@
-VirtualBox GUI VM Selector Window 5.0.14_OSE r105127 linux.amd64 (Mar  4 2016 21:46:10) release log
-00:00:01.238385 Log opened 2016-03-10T16:11:08.906513000Z
-00:00:01.238387 Build Type: release
-00:00:01.238390 OS Product: Linux
-00:00:01.238391 OS Release: 4.4.3-1-ARCH
-00:00:01.238392 OS Version: #1 SMP PREEMPT Fri Feb 26 15:09:29 CET 2016
-00:00:01.238417 DMI Product Name: 550P5C/550P7C
-00:00:01.238426 DMI Product Version: P05ABI
-00:00:01.238477 Host RAM: 7875MB total, 6174MB available
-00:00:01.238480 Executable: /usr/lib/virtualbox/VirtualBox
-00:00:01.238481 Process ID: 7715
-00:00:01.238482 Package type: LINUX_64BITS_GENERIC (OSE)
-00:00:01.257083 GUI: UIMediumEnumerator: Medium-enumeration started...
-00:00:02.434368 GUI: UISelectorWindow: Geometry loaded to: Origin=298x109, Size=770x550
-00:00:02.551815 GUI: UIMediumEnumerator: Medium-enumeration finished!
-00:00:02.679385 Failed to open "/dev/vboxdrv", errno=13, rc=VERR_VM_DRIVER_NOT_ACCESSIBLE
-00:00:02.757512 refreshCertificates/#1: InMem.Cert.TbsCertificate.T3.Extensions.paItems[#].ExtnValue.NameConstraints.T0.PermittedSubtrees.paItems[#]: Unexpected sequence type/flags: 0x2/0x80 (expected 0x10/0x20)
-00:00:02.759196 refreshCertificates/#3: Found 1/183 SSL certs we/you trust (previously 0/0).
-00:00:08.530739 GUI: UISelectorWindow: Geometry saved as: Origin=298x109, Size=770x550
+VirtualBox GUI VM Selector Window 5.0.22_OSE r108108 linux.amd64 (Jun 18 2016 04:17:22) release log
+00:00:01.308237 Log opened 2016-06-30T15:19:12.196584000Z
+00:00:01.308239 Build Type: release
+00:00:01.308242 OS Product: Linux
+00:00:01.308244 OS Release: 4.6.2-1-ARCH
+00:00:01.308245 OS Version: #1 SMP PREEMPT Wed Jun 8 08:40:59 CEST 2016
+00:00:01.308272 DMI Product Name: 550P5C/550P7C
+00:00:01.308281 DMI Product Version: P05ABI
+00:00:01.308333 Host RAM: 7875MB total, 6773MB available
+00:00:01.308336 Executable: /usr/lib/virtualbox/VirtualBox
+00:00:01.308337 Process ID: 2926
+00:00:01.308338 Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:01.520376 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:04.196699 GUI: UISelectorWindow: Geometry loaded to: Origin=1694x108, Size=770x550
+00:00:04.422548 Failed to open "/dev/vboxdrv", errno=13, rc=VERR_VM_DRIVER_NOT_ACCESSIBLE
+00:00:04.468501 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:04.609243 refreshCertificates/#1: InMem.Cert.TbsCertificate.T3.Extensions.paItems[#].ExtnValue.NameConstraints.T0.PermittedSubtrees.paItems[#]: Unexpected sequence type/flags: 0x2/0x80 (expected 0x10/0x20)
+00:00:04.620432 refreshCertificates/#3: Found 1/176 SSL certs we/you trust (previously 1/176).
+00:00:22.917288 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:23.097138 2D support test succeeded
+00:00:23.396224 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:30.359160 GUI: UIMediumEnumerator: Machine (or snapshot) event received, ID = cc7ec1f6-48b0-46c1-8498-ae03961cdf30
+00:00:30.359262 GUI: UIMediumEnumerator:  Old usage: e59073a8-4cfc-45c8-baef-6d18c63131fd
+00:00:30.361085 GUI: UIMediumEnumerator:  New usage: e59073a8-4cfc-45c8-baef-6d18c63131fd
+00:00:30.361106 GUI: UIMediumEnumerator:  Items currently in usage: e59073a8-4cfc-45c8-baef-6d18c63131fd
+00:00:30.361162 GUI: UIMediumEnumerator: Machine (or snapshot) event processed, ID = cc7ec1f6-48b0-46c1-8498-ae03961cdf30
+00:00:30.368187 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:30.437444 GUI: UIMediumEnumerator: Machine (or snapshot) event received, ID = cc7ec1f6-48b0-46c1-8498-ae03961cdf30
+00:00:30.437497 GUI: UIMediumEnumerator:  Old usage: e59073a8-4cfc-45c8-baef-6d18c63131fd
+00:00:30.438154 GUI: UIMediumEnumerator:  New usage: e59073a8-4cfc-45c8-baef-6d18c63131fd
+00:00:30.438170 GUI: UIMediumEnumerator:  Items currently in usage: e59073a8-4cfc-45c8-baef-6d18c63131fd
+00:00:30.438219 GUI: UIMediumEnumerator: Machine (or snapshot) event processed, ID = cc7ec1f6-48b0-46c1-8498-ae03961cdf30
+00:00:30.444297 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:30.506559 GUI: UIMediumEnumerator: Machine (or snapshot) event received, ID = cc7ec1f6-48b0-46c1-8498-ae03961cdf30
+00:00:30.506635 GUI: UIMediumEnumerator:  Old usage: e59073a8-4cfc-45c8-baef-6d18c63131fd
+00:00:30.507685 GUI: UIMediumEnumerator:  New usage: e59073a8-4cfc-45c8-baef-6d18c63131fd
+00:00:30.507703 GUI: UIMediumEnumerator:  Items currently in usage: e59073a8-4cfc-45c8-baef-6d18c63131fd
+00:00:30.507744 GUI: UIMediumEnumerator: Machine (or snapshot) event processed, ID = cc7ec1f6-48b0-46c1-8498-ae03961cdf30
+00:00:30.516204 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:30.582047 GUI: UIMediumEnumerator: Machine (or snapshot) event received, ID = cc7ec1f6-48b0-46c1-8498-ae03961cdf30
+00:00:30.582114 GUI: UIMediumEnumerator:  Old usage: e59073a8-4cfc-45c8-baef-6d18c63131fd
+00:00:30.583266 GUI: UIMediumEnumerator:  New usage: e59073a8-4cfc-45c8-baef-6d18c63131fd
+00:00:30.583284 GUI: UIMediumEnumerator:  Items currently in usage: e59073a8-4cfc-45c8-baef-6d18c63131fd
+00:00:30.583330 GUI: UIMediumEnumerator: Machine (or snapshot) event processed, ID = cc7ec1f6-48b0-46c1-8498-ae03961cdf30
+00:00:30.599433 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:37.129521 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:37.375050 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:49.575023 GUI: UIMediumEnumerator: Machine (or snapshot) event received, ID = cc7ec1f6-48b0-46c1-8498-ae03961cdf30
+00:00:49.575080 GUI: UIMediumEnumerator:  Old usage: e59073a8-4cfc-45c8-baef-6d18c63131fd
+00:00:49.575858 GUI: UIMediumEnumerator:  New usage: e59073a8-4cfc-45c8-baef-6d18c63131fd
+00:00:49.575871 GUI: UIMediumEnumerator:  Items currently in usage: e59073a8-4cfc-45c8-baef-6d18c63131fd
+00:00:49.575894 GUI: UIMediumEnumerator: Machine (or snapshot) event processed, ID = cc7ec1f6-48b0-46c1-8498-ae03961cdf30
+00:00:49.584433 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:51.374563 GUI: UISelectorWindow: Geometry saved as: Origin=367x149, Size=770x550
